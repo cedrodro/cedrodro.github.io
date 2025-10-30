@@ -192,6 +192,18 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _projects/ # exclude contents
+  - _teaching/
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/people.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+  - _includes/projects.liquid
+  - _includes/projects_horizontal.liquid
+  - _includes/repository/
+  - _data/repositories.yml
 keep_files:
   - CNAME
   - .nojekyll
