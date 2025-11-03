@@ -32,3 +32,11 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"kobayashi":
+  - firstname: ["Tetsuya", "T.", "Tetsuya J.", "T. J."]
+    url: https://scholar.google.com/citations?user=vPLNIKMAAAAJ
+
+"loutchko":
+  - firstname: ["Dimitri", "D."]
+    url: https://scholar.google.com/citations?user=7zJpKTkAAAAJ
