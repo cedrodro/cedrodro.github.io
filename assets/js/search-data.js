@@ -16,9 +16,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/publications/";
           },
+        },{id: "nav-activities",
+          title: "activities",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/activities/";
+          },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum Vitae",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
@@ -45,7 +52,57 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
+      },{id: "activities-mathematical-modeling-for-genetic-recombination-process",
+          title: 'Mathematical Modeling for Genetic Recombination Process',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20240220_poster/";
+            },},{id: "activities-化学反応ネットワークの種グラフ上の遷移と熱力学",
+          title: '化学反応ネットワークの種グラフ上の遷移と熱力学',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20240826_poster/";
+            },},{id: "activities-化学反応ネットワークの種グラフ上の遷移と熱力学",
+          title: '化学反応ネットワークの種グラフ上の遷移と熱力学',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20241127_poster/";
+            },},{id: "activities-quantifying-relaxation-dynamics-on-crns-with-convexity",
+          title: 'Quantifying Relaxation Dynamics on CRNs with Convexity',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250306_poster/";
+            },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
+          title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250326_poster/";
+            },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
+          title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250628_poster/";
+            },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
+          title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250707_poster/";
+            },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-with-convexity",
+          title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems with Convexity',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250729_poster/";
+            },},{id: "activities-化学反応ネットワークにおける緩和過程の定量化-凸解析によるアプローチ",
+          title: '化学反応ネットワークにおける緩和過程の定量化：凸解析によるアプローチ',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20250901_poster/";
+            },},{id: "activities-化学反応ネットワークにおける緩和過程の定量化-凸解析によるアプローチ",
+          title: '化学反応ネットワークにおける緩和過程の定量化：凸解析によるアプローチ',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/al-folio/activities/20251122_poster/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
