@@ -7,28 +7,28 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "including preprints",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-activities",
           title: "activities",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/activities/";
+            window.location.href = "/activities/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -56,57 +56,57 @@ ninja.data = [{
           title: 'Mathematical Modeling for Genetic Recombination Process',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20240220_poster/";
+              window.location.href = "/activities/20240220_poster/";
             },},{id: "activities-化学反応ネットワークの種グラフ上の遷移と熱力学",
           title: '化学反応ネットワークの種グラフ上の遷移と熱力学',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20240826_poster/";
+              window.location.href = "/activities/20240826_poster/";
             },},{id: "activities-化学反応ネットワークの種グラフ上の遷移と熱力学",
           title: '化学反応ネットワークの種グラフ上の遷移と熱力学',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20241127_poster/";
+              window.location.href = "/activities/20241127_poster/";
             },},{id: "activities-quantifying-relaxation-dynamics-on-crns-with-convexity",
           title: 'Quantifying Relaxation Dynamics on CRNs with Convexity',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250306_poster/";
+              window.location.href = "/activities/20250306_poster/";
             },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
           title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250326_poster/";
+              window.location.href = "/activities/20250326_poster/";
             },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
           title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250628_poster/";
+              window.location.href = "/activities/20250628_poster/";
             },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
           title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250707_poster/";
+              window.location.href = "/activities/20250707_poster/";
             },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-with-convexity",
           title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems with Convexity',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250729_poster/";
+              window.location.href = "/activities/20250729_poster/";
             },},{id: "activities-化学反応ネットワークにおける緩和過程の定量化-凸解析によるアプローチ",
           title: '化学反応ネットワークにおける緩和過程の定量化：凸解析によるアプローチ',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20250901_poster/";
+              window.location.href = "/activities/20250901_poster/";
             },},{id: "activities-化学反応ネットワークにおける緩和過程の定量化-凸解析によるアプローチ",
           title: '化学反応ネットワークにおける緩和過程の定量化：凸解析によるアプローチ',
           description: "",
           section: "Activities",handler: () => {
-              window.location.href = "/al-folio/activities/20251122_poster/";
+              window.location.href = "/activities/20251122_poster/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-my-personal-website-has-been-launched",
           title: 'My personal website has been launched!',
           description: "",
