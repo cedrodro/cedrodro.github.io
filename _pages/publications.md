@@ -17,7 +17,7 @@ I aim to build such foundations and render them intelligible to theorists.
 In one definition by NASA, life is characterized as “a self-sustaining chemical system capable of Darwinian evolution.”  
 How does each element—molecular basis, self-sustaining dynamics, and evolution—fundamentally make a system biological?
 
-**Technical keywords**
+***Technical keywords***
 - chemical reactions, molecular networks, graphs
 - non-equilibrium thermodynamics, dissipative systems, gradient flows
 - population dynamics, evolution, optimal control

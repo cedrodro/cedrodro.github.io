@@ -7,18 +7,18 @@
     "phone": "",
     "url": "https://cedrodro.github.io/",
     "summary": "PhD student at UTokyo, \n interested in math, physics, and information theory for understanding biological systems",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    // "location": {
+    //   "address": "2712 Broadway St",
+    //   "postalCode": "CA 94115",
+    //   "city": "San Francisco",
+    //   "countryCode": "US",
+    //   "region": "California"
+    // },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Google Scholar",
+        "username": "Keisuke Sugie",
+        "url": "https://scholar.google.com/citations?user=x_hx8VoAAAAJ"
       }
     ]
   },
@@ -47,15 +47,28 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "studyType": "Ph.D. in the field of Information Science and Technology",
+      "startDate": "2025-04-01",
+      "endDate": "present",
+      "area": "Department of Mathematical Informatics"
+    },
+    {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "studyType": "Master of Information Science and Technology",
+      "startDate": "2023-04-01",
+      "endDate": "2025-03-31",
+      "area": "Department of Mathematical Informatics"
+    },
+    {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2019-04-01",
+      "endDate": "2023-03-31",
+      "area": "Department of Mathematical Engineering and Information Physics"
     }
   ],
   "awards": [
@@ -112,42 +125,28 @@
     // }
   ],
   "publications": [
-    // {
-    //   "name": "Zur Elektrody/namik bewegter Körper",
-    //   "publisher": "Annalen der Physik",
-    //   "releaseDate": "1905-06-30",
-    //   "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-    //   "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    // },
-    // {
-    //   "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-    //   "publisher": "Annalen der Physik",
-    //   "releaseDate": "1905-03-18",
-    //   "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-    //   "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    // },
-    // {
-    //   "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-    //   "publisher": "Annalen der Physik",
-    //   "releaseDate": "1916-03-20",
-    //   "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-    //   "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    // }
+    {
+      "name": "Transitions and thermodynamics on species graphs of chemical reaction networks",
+      "publisher": "Physical Review E",
+      "releaseDate": "2025-10-08",
+      "url": "https://doi.org/10.1103/p42m-8bqy",
+      "summary": "This paper proposes a method to coarse-grain reaction systems and represent them as a graph structure. This method expresses the system as a graph by focusing on the conserved quantities of the system and discusses the related thermodynamic quantities and their interrelationships."
+    }
   ],
   "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+    // {
+      // "name": "Physics",
+      // "level": "Master",
+      // "icon": "fa-solid fa-hashtag",
+      // "keywords": [
+      //   "Quantum Mechanics",
+      //   "Quantum Computing",
+      //   "Quantum Information",
+      //   "Quantum Cryptography",
+      //   "Quantum Communication",
+      //   "Quantum Teleportation"
+      // ]
+    // }
   ],
   "languages": [
     {
@@ -162,18 +161,18 @@
     }
   ],
   "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+    // {
+    //   "name": "Physics",
+    //   "icon": "fa-solid fa-tag",
+    //   "keywords": [
+    //     "Quantum Mechanics",
+    //     "Quantum Computing",
+    //     "Quantum Information",
+    //     "Quantum Cryptography",
+    //     "Quantum Communication",
+    //     "Quantum Teleportation"
+    //   ]
+    // }
   ],
   "references": [
     // {
