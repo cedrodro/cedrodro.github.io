@@ -86,48 +86,12 @@ nav_order: 4
 									{%- capture initials_norm -%}{%- for t in first_tokens -%}{{ t | slice: 0,1 }}{%- endfor -%}{%- endcapture -%}
 									{%- assign initials_norm = initials_norm | strip -%}
 
-									{%- comment -%} 自分の名前か？（正規化して robust に一致） {%- endcomment -%}
+									{%- comment -%} 自分の名前か？（bib.liquid に合わせた簡潔判定） {%- endcomment -%}
 									{%- assign author_is_self = false -%}
 									{%- if site.scholar and site.scholar.last_name and site.scholar.first_name -%}
-										{%- assign ln_ok = false -%}
-										{%- if site.scholar.last_name.kind_of? Array -%}
-											{%- for ln in site.scholar.last_name -%}
-												{%- assign ln_norm = ln | downcase | remove_accents | replace: ".", "" | replace: "'", "" | replace: "-", " " | regex_replace: "\s+", " " -%}
-												{%- if last_key == ln_norm -%}{%- assign ln_ok = true -%}{%- endif -%}
-											{%- endfor -%}
-										{%- else -%}
-											{%- assign ln_norm = site.scholar.last_name | downcase | remove_accents | replace: ".", "" | replace: "'", "" | replace: "-", " " | regex_replace: "\s+", " " -%}
-											{%- if last_key == ln_norm -%}{%- assign ln_ok = true -%}{%- endif -%}
+										{%- if site.scholar.last_name contains last and site.scholar.first_name contains first -%}
+											{%- assign author_is_self = true -%}
 										{%- endif -%}
-
-										{%- assign fn_ok = false -%}
-										{%- if site.scholar.first_name.kind_of? Array -%}
-											{%- for fn in site.scholar.first_name -%}
-												{%- assign fn_norm = fn | downcase | remove_accents | replace: ".", "" | replace: "'", "" | replace: "-", " " | regex_replace: "\s+", " " -%}
-												{%- assign fn_tokens = fn_norm | split: " " -%}
-												{%- capture fn_inits -%}{%- for t in fn_tokens -%}{{ t | slice: 0,1 }}{%- endfor -%}{%- endcapture -%}
-												{%- assign fn_inits = fn_inits | strip -%}
-												{%- if first_full_norm == fn_norm
-												      or first_full_norm contains fn_norm or fn_norm contains first_full_norm
-												      or first_simple_norm == fn_norm
-												      or fn_inits == initials_norm -%}
-													{%- assign fn_ok = true -%}
-												{%- endif -%}
-											{%- endfor -%}
-										{%- else -%}
-											{%- assign fn_norm = site.scholar.first_name | downcase | remove_accents | replace: ".", "" | replace: "'", "" | replace: "-", " " | regex_replace: "\s+", " " -%}
-											{%- assign fn_tokens = fn_norm | split: " " -%}
-											{%- capture fn_inits -%}{%- for t in fn_tokens -%}{{ t | slice: 0,1 }}{%- endfor -%}{%- endcapture -%}
-											{%- assign fn_inits = fn_inits | strip -%}
-											{%- if first_full_norm == fn_norm
-											      or first_full_norm contains fn_norm or fn_norm contains first_full_norm
-											      or first_simple_norm == fn_norm
-											      or fn_inits == initials_norm -%}
-												{%- assign fn_ok = true -%}
-											{%- endif -%}
-										{%- endif -%}
-
-										{%- if ln_ok and fn_ok -%}{%- assign author_is_self = true -%}{%- endif -%}
 									{%- endif -%}
 
 									{%- comment -%} coauthors.yml から URL を解決（姓キー：小文字・アクセント無し） {%- endcomment -%}
@@ -154,7 +118,7 @@ nav_order: 4
 									{%- if forloop.index0 > 0 -%}{% if forloop.last %} and {% else %}, {% endif %}{%- endif -%}
 
 									{%- if author_is_self -%}
-										<em class="self">{{ display }}</em>
+										<em>{{ display }}</em>
 									{%- elsif coauthor_url -%}
 										<a href="{{ coauthor_url }}">{{ display }}</a>
 									{%- else -%}
