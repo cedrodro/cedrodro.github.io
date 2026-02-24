@@ -110,6 +110,9 @@ ninja.data = [{
             },},{id: "news-my-personal-website-has-been-launched",
           title: 'My personal website has been launched!',
           description: "",
+          section: "News",},{id: "news-our-new-preprint-convex-analysis-of-relaxation-dynamics-in-chemical-reaction-networks-and-generalized-gradient-flows-has-been-released-on-arxiv",
+          title: 'Our new preprint [convex analysis of relaxation dynamics in chemical reaction networks and...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
