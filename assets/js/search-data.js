@@ -102,6 +102,11 @@ ninja.data = [{
           description: "",
           section: "Activities",handler: () => {
               window.location.href = "/activities/20251122_poster/";
+            },},{id: "activities-driving-population-dynamics-across-steady-growing-states-insights-from-ness-thermodynamics",
+          title: 'Driving population dynamics across steady growing states: insights from NESS thermodynamics',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/20260314_poster/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
