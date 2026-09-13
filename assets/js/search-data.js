@@ -107,6 +107,16 @@ ninja.data = [{
           description: "",
           section: "Activities",handler: () => {
               window.location.href = "/activities/20260314_poster/";
+            },},{id: "activities-散逸予算のもとでの非平衡システムの駆動",
+          title: '散逸予算のもとでの非平衡システムの駆動',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/20260909_poster/";
+            },},{id: "activities-driving-nonequilibrium-systems-under-a-dissipation-budget",
+          title: 'Driving Nonequilibrium Systems under a Dissipation Budget',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/20261123_poster/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
