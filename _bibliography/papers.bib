@@ -3,6 +3,41 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{sugie2026optimal,
+  bibtex_show={true},
+  abbr = {preprint},
+  title = {Optimal Driving between Nonequilibrium Steady States under a Dissipation Budget},
+  author = {Sugie, Keisuke and Loutchko, Dimitri and Kobayashi, Tetsuya J.},
+  year = {2026},
+  month = {Nov},
+  url = {https://arxiv.org/abs/2611.14891},
+  abstract = {Driving between nonequilibrium steady states incurs two thermodynamic costs: excess entropy production (EP) resulting from changing control parameters, and housekeeping EP required to sustain steady currents. Conventional fixed-duration optimization minimizes the former while neglecting the latter. Here, we instead optimize excess EP over both the protocol and its duration subject to a fixed leading order of housekeeping-EP budget, thereby minimizing total EP for that budget constraint. In the slow-driving regime, accumulated housekeeping EP acts as an entropic time, mapping the problem to a geodesic optimization under a friction metric weighted by the steady-state EP rate. This resource-based geometry determines optimal paths and schedules for systems that continue to dissipate even in steady states, establishing an intrinsic trade-off between housekeeping and excess EPs. Near equilibrium, this framework further yields geometric lower bounds on total EP, attained with equipartition at the optimal budget given by a modified thermodynamic length. Numerical simulations of a three-state model for an ATP-driven calcium pump reveal distinct optimal protocols compared to fixed-duration driving, confirming the total-EP bounds.},
+  arxiv = {2611.14891},
+  preview={optimal_driving_dissipation_budget_fig2.png},
+  selected={true},
+}
+
+@article{loutchko2025information,
+  bibtex_show={true},
+  abbr = {InfoGeom},
+  title = {Information geometry of perturbed gradient flow systems on hypergraphs: A perspective towards nonequilibrium physics},
+  author = {Loutchko, Dimitri and Sugie, Keisuke and Kobayashi, Tetsuya J.},
+  journal = {Information Geometry},
+  volume = {9},
+  issue = {},
+  pages = {781--813},
+  numpages = {33},
+  year = {2026},
+  month = {Oct},
+  publisher = {Springer Nature},
+  doi = {10.1007/s41884-026-00221-7},
+  url = {https://link.springer.com/article/10.1007/s41884-026-00221-7},
+  abstract = {This article serves to concisely review the link between gradient flow systems on hypergraphs and information geometry which has been established within the last five years. Gradient flow systems describe a wealth of physical phenomena and provide powerful analytical technquies which are based on the variational energy-dissipation principle. Modern nonequilbrium physics has complemented this classical principle with thermodynamic uncertaintly relations, speed limits, entropy production rate decompositions, and many more. In this article, we formulate these modern principles within the framework of perturbed gradient flow systems on hypergraphs. In particular, we discuss the geometry induced by the Bregman divergence, the physical implications of dual foliations, as well as the corresponding infinitesimal Riemannian geometry for gradient flow systems. Through the geometrical perspective, we are naturally led to new concepts such as moduli spaces for perturbed gradient flow systems and thermodynamical area which is crucial for understanding speed limits. We hope to encourage the readers working in either of the two fields to further expand on and foster the interaction between the two fields.},
+  arxiv = {2510.27268},
+  preview={Figure1.png},
+  selected={true},
+}
+
 @article{sugie2026convex,
   bibtex_show={true},
   abbr = {preprint},
@@ -19,28 +54,8 @@
   xdoi = {},
   url = {https://arxiv.org/abs/2602.18932},
   abstract = {We obtain bounds on the Kullback--Leibler divergence to equilibrium for mass-action chemical reaction networks (CRNs) with equilibrium. The associated decay rates are characterized in terms of the singular values of the stoichiometric matrix, convexity parameters, and time-integrated activities via deformed-exponential-type functions. We further extend these bounds within a generalized gradient flow framework. We highlight the biological relevance of this framework: the resulting bounds apply to quasi-steady-state regimes, where long transients and plateau-like behavior are common and functionally important. We illustrate the framework using a catalytic CRN exhibiting plateaus, where the bounds capture slow relaxation induced by local convexity and provide a bound-based approach to quantifying relaxation in CRNs.},
-  arxiv = {arXiv:2602.18932},
+  arxiv = {2602.18932},
   preview={gradient_decomposition_2.png}
-}
-
-@article{loutchko2025information,
-  bibtex_show={true},
-  abbr = {preprint},
-  title = {Information geometry of perturbed gradient flow systems on hypergraphs: A perspective towards nonequilibrium physics},
-  author = {Loutchko, Dimitri and Sugie, Keisuke and Kobayashi, Tetsuya J.},
-  journal = {},
-  volume = {},
-  issue = {},
-  pages = {},
-  numpages = {},
-  year = {2025},
-  month = {Oct},
-  publisher = {},
-  xdoi = {},
-  url = {https://arxiv.org/abs/2510.27268},
-  abstract = {This article serves to concisely review the link between gradient flow systems on hypergraphs and information geometry which has been established within the last five years. Gradient flow systems describe a wealth of physical phenomena and provide powerful analytical technquies which are based on the variational energy-dissipation principle. Modern nonequilbrium physics has complemented this classical principle with thermodynamic uncertaintly relations, speed limits, entropy production rate decompositions, and many more. In this article, we formulate these modern principles within the framework of perturbed gradient flow systems on hypergraphs. In particular, we discuss the geometry induced by the Bregman divergence, the physical implications of dual foliations, as well as the corresponding infinitesimal Riemannian geometry for gradient flow systems. Through the geometrical perspective, we are naturally led to new concepts such as moduli spaces for perturbed gradient flow systems and thermodynamical area which is crucial for understanding speed limits. We hope to encourage the readers working in either of the two fields to further expand on and foster the interaction between the two fields.},
-  arxiv = {arXiv:2510.27268},
-  preview={Figure1.png}
 }
 
 @article{sugie2025transitions,
@@ -59,7 +74,7 @@
   doi = {10.1103/p42m-8bqy},
   url = {https://link.aps.org/doi/10.1103/p42m-8bqy},
   abstract = {Chemical reaction network (CRN) theory is widely utilized to model and analyze a wide range of biochemical phenomena. Structural transformations and reductions serve as essential tools to better understand how topological properties of a CRN are related with specific functions. In this context, graph-based representations of CRNs have been explored; however, their connections to concentration dynamics and thermodynamics remain elusive. In this study, we propose a natural transformation from the classical complex-reaction graph to a species-transition graph, leveraging the conservation laws of the stoichiometric matrix. By introducing transition matrices on the species graph, the concentration dynamics of CRNs are reinterpreted as the differences between the physically observable inflow and outflow of species. This approach enables the formal lumping of multiple reactions into fewer interactions, which we demonstrate using a realistic metabolic model of E. coli. Additionally, we define species-specific thermodynamic quantities on the species graphs and establish bounds relating them to conventional reactionwise quantities. The specieswise bounds of conventional driving forces and entropy production rates can outperform the bounds determined by reactionwise flux fluctuations, as illustrated through numerical simulations with the Brusselator model. The proposed framework unifies graph-based representations of CRNs with concentration dynamics and thermodynamic principles, offering novel insights and computational advantages for analyzing complex biochemical networks.},
-  arxiv = {arXiv:2404.14336},
+  arxiv = {2404.14336},
   preview={lumping.png},
   selected={true},
 }

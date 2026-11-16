@@ -134,8 +134,9 @@ nav_order: 4
 							{%- if a.location -%}{% unless first %}, {% endunless %}{{ a.location }}{%- assign first=false -%}{%- endif -%}
 							{%- if a.date -%}{% unless first %}, {% endunless %}{{ a.date | date: "%b %Y" }}{%- endif -%}
 						</div>
+						{%- if a.summary -%}<div class="periodical">{{ a.summary }}</div>{%- endif -%}
 						<div class="links">
-							{%- if a.external -%}<a class="btn btn-sm z-depth-0" href="{{ a.external }}">Program</a>{%- endif -%}
+							{%- if a.external -%}<a class="btn btn-sm z-depth-0" href="{{ a.external }}">{{ a.external_label | default: "Program" }}</a>{%- endif -%}
 							{%- if a.slides   -%}<a class="btn btn-sm z-depth-0" href="{{ a.slides }}">Slides</a>{%- endif -%}
 							{%- if a.video    -%}<a class="btn btn-sm z-depth-0" href="{{ a.video  }}">Video</a>{%- endif -%}
 						</div>

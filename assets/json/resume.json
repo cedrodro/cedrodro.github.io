@@ -73,6 +73,20 @@
   ],
   "awards": [
     {
+      "title": "JSPS Research Fellowship for Young Scientists (DC2)",
+      "date": "2027",
+      "awarder": "Japan Society for the Promotion of Science (JSPS)",
+      "url": "https://www.jsps.go.jp/j-pd/",
+      "summary": "Selected for the FY2027 fellowship."
+    },
+    {
+      "title": "EPIC Assembly Group Work Award",
+      "date": "2025-06-27",
+      "awarder": "EPIC Assembly",
+      "url": "https://epic-assembly.crmind.net/files/EPIC_Letter_No1.pdf",
+      "summary": "Group award for the research proposal 'Creating novel taste receptors and understanding their integration' at the 1st EPIC Assembly Area Meeting."
+    },
+    {
       "title": "SPRING GX Fellowship",
       "date": "2025",
       "awarder": "The University of Tokyo",
@@ -124,6 +138,20 @@
     // }
   ],
   "publications": [
+    {
+      "name": "Optimal Driving between Nonequilibrium Steady States under a Dissipation Budget",
+      "publisher": "arXiv (preprint)",
+      "releaseDate": "2026-11-11",
+      "url": "https://arxiv.org/abs/2611.14891",
+      "summary": "We study optimal driving between nonequilibrium steady states under a fixed housekeeping dissipation budget, deriving geometric bounds on total entropy production and illustrating them with an ATP-driven calcium pump model."
+    },
+    {
+      "name": "Information geometry of perturbed gradient flow systems on hypergraphs: A perspective towards nonequilibrium physics",
+      "publisher": "Information Geometry, 9, 781-813",
+      "releaseDate": "2026-10-01",
+      "url": "https://doi.org/10.1007/s41884-026-00221-7",
+      "summary": "This article reviews the connection between gradient flow systems on hypergraphs and information geometry, including thermodynamic uncertainty relations, speed limits, and entropy production decompositions."
+    },
     {
       "name": "Transitions and thermodynamics on species graphs of chemical reaction networks",
       "publisher": "Physical Review E",
