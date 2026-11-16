@@ -77,6 +77,11 @@ ninja.data = [{
           description: "",
           section: "Activities",handler: () => {
               window.location.href = "/activities/20250326_poster/";
+            },},{id: "activities-epic-assembly-group-work-award",
+          title: 'EPIC Assembly Group Work Award',
+          description: "",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/20250627_award/";
             },},{id: "activities-qualifying-relaxation-dynamics-in-chemical-reaction-systems-a-convex-analytical-approach",
           title: 'Qualifying Relaxation Dynamics in Chemical Reaction Systems: A Convex Analytical Approach',
           description: "",
@@ -127,6 +132,15 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-new-preprint-convex-analysis-of-relaxation-dynamics-in-chemical-reaction-networks-and-generalized-gradient-flows-has-been-released-on-arxiv",
           title: 'Our new preprint [convex analysis of relaxation dynamics in chemical reaction networks and...',
+          description: "",
+          section: "News",},{id: "news-our-paper-information-geometry-of-perturbed-gradient-flow-systems-on-hypergraphs-a-perspective-towards-nonequilibrium-physics-has-been-published-in-information-geometry",
+          title: 'Our paper, Information geometry of perturbed gradient flow systems on hypergraphs: A perspective...',
+          description: "",
+          section: "News",},{id: "news-our-new-preprint-optimal-driving-between-nonequilibrium-steady-states-under-a-dissipation-budget-is-now-available-on-arxiv",
+          title: 'Our new preprint, Optimal Driving between Nonequilibrium Steady States under a Dissipation Budget,...',
+          description: "",
+          section: "News",},{id: "news-i-have-been-selected-for-the-jsps-research-fellowship-for-young-scientists-dc2-for-fy2027",
+          title: 'I have been selected for the JSPS Research Fellowship for Young Scientists (DC2)...',
           description: "",
           section: "News",},{
         id: 'social-email',
